@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html{
+  margin: 0;
+  padding: 0;
+
+  background-color:   	#e1e1e1;
+  font-family: 'Oswald', sans-serif;
+  font-size: 62.5%;
+  line-height: 1.15;
+}
+body{
+  max-width: 68rem;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+h2{
+  font-size: 3.6rem;
+  margin-bottom: 1rem;
+}
+input[type="text"]{
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  border: 2px solid #000;
+}
+[class*="_lg"] {
+  width : 100%;
+  margin-bottom: 1rem;
+}
+.todo-app > form{
+  max-width: 100%;
+}
+.todo-app > *{
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+form > input{
+  padding: 2rem;
+}
+.todo-app{
+  background-color: #f3f3f3;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2),0 2.5rem 5rem 0 rgba(0,0,0,.1);
+  padding: 4rem;
+  margin: 2rem 0 4rem;
+  border-radius: 1rem;
+}
+.todo{
+  margin-bottom: 1rem;
+}
+/*buttons*/
+.btn{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  padding: 0.5rem 1rem 0.4rem;
+  border: 0.2rem solid #4d4d4d;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #fff ;
+}
+.btn-group{
+  display: flex;
+  justify-content: space-between;
+}
+.btn-group > *{
+  flex: 1 1 49%;
+}
+.toggle-btn{
+  border-width: 1px;
+  border-radius: 0;;
+}
+.toggle-btn[aria-pressed="true"]{
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+.add{
+  color: #fff;
+  background-color: #000;
+}
+.delete{
+  color: #fff;
+  background-color: #ca3c3c;
+  border-color: #bd2130;
+
+  margin-left: 0.8rem;
+}.save{
+  color: #fff;
+  background-color: #000;
+
+  margin-left: 0.8rem;
+}
+.checkbox{
+  line-height: 3rem;
+}
+.todo-edit{
+  width: 100%;
+  line-height: 3rem;
+  padding-left: 1rem;
+}
+.checkbox > input[type = "checkbox"]{
+  height: 3rem;
+  width: 3rem;
+}
+.label-wrapper{
+  text-align: center;
+}
+.todo-label{
+  font-size: 2.4rem;
+  padding-left: 1rem;
+}
+.stack-small{
+
+}
+.stack-large{
+  width: 100%;
+}
