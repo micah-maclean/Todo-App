@@ -107,6 +107,7 @@ form > input{
 .checkbox > input[type = "checkbox"]{
   height: 3rem;
   width: 3rem;
+  vertical-align: sub;
 }
 .label-wrapper{
   text-align: center;
